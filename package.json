@@ -1,0 +1,38 @@
+{
+  "name": "air-logger-rn",
+  "version": "0.0.2",
+  "description": "Air logger client for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src -d ./lib",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadimDyliko/air-logger-rn.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "logger",
+    "debug",
+    "log"
+  ],
+  "author": "Vadim Dyliko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VadimDyliko/air-logger-rn/issues"
+  },
+  "homepage": "https://github.com/VadimDyliko/air-logger-rn#readme",
+  "dependencies": {
+    "babel-preset-es2015": "6.24.1",
+    "device-detector-js": "2.2.5",
+    "shortid": "2.2.15",
+    "socket.io-client": "2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0"
+  }
+}
